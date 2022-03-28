@@ -69,6 +69,7 @@ export default function Weather() {
                   class="link"
                   href="https://github.com/Murielcibra/tempo-react"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Open-source code
                 </a>
