@@ -44,10 +44,8 @@ export default function Weather() {
                     className="w-icon"
                     id="icon"
                   />
-
                   <div className="others">
                     <div className="day"></div>
-
                     <div className="temp" id="temperature">
                       72 <span>°</span>
                     </div>
@@ -57,7 +55,6 @@ export default function Weather() {
                       </a>
                       <a href="/"> °F</a>
                     </div>
-
                     <div className="humidity">
                       Humidity:<span>75%</span>
                     </div>
@@ -66,20 +63,20 @@ export default function Weather() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div>{" "}
+              <small>
+                <a
+                  class="link"
+                  href="https://github.com/Murielcibra/tempo-react"
+                  target="_blank"
+                >
+                  Open-source code
+                </a>
+                by: Muriel Cishek
+              </small>
             </div>
           </div>
-        </div>{" "}
-        <small>
-          <a
-            class="link"
-            href="https://github.com/Murielcibra/tempo-react"
-            target="_blank"
-          >
-            Open-source code
-          </a>
-          by: Muriel Cishek
-        </small>
+        </div>
       </div>
     </div>
   );
