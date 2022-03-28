@@ -78,7 +78,7 @@ export default function Weather() {
           >
             Open-source code
           </a>
-          by Muriel Cishek
+          by: Muriel Cishek
         </small>
       </div>
     </div>
