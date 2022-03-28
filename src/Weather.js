@@ -69,7 +69,17 @@ export default function Weather() {
               </div>
             </div>
           </div>
-        </div>
+        </div>{" "}
+        <small>
+          <a
+            class="link"
+            href="https://github.com/Murielcibra/tempo-react"
+            target="_blank"
+          >
+            Open-source code
+          </a>
+          by Muriel Cishek
+        </small>
       </div>
     </div>
   );
